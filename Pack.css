@@ -1,0 +1,126 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+
+    .movil {
+        display: none;
+    }
+}
+
+
+
+/*Pagina web*/
+
+
+body {
+    font-family: Courier;
+    margin:0px auto;
+    border:1px solid black;
+    background:  #fcfcfc;
+}
+
+h1 {
+    text-align: center
+}
+
+
+div{
+    text-align: center;
+    
+}
+
+img {
+    border: solid;
+    border-color: orange;
+}
+
+h6{
+    text-align:right;
+}
+footer{
+    background: #111;
+    height:auto;
+    width: 100vw;
+    font-family:'open sans';
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+
+}
+.socials{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width:100vw;
+    padding:20px 0;
+    text-align: right;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform:capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight:200;
+}
